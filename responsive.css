@@ -14,9 +14,40 @@ header{
 height: auto;
 }
 
-ul.menu {
-	display: none;
+
+#menu-icon {
+display:block !important;
+background-color: #6A4A3C;
+margin: 40px;
 }
+
+nav:hover ul,nav:active ul {
+background:#02C3FF;
+display: block;
+position: absolute;
+padding: 10px;
+width: 50%;
+color:#fff;
+text-transform: none;
+}
+nav li {
+background:#02C3FF;
+text-align: center;
+width: 100%;
+padding: 5px 0;
+margin: 0;
+color:#fff;
+}
+nav ul {
+display: none;
+}
+
+nav a {
+color:#fff;
+display:block;
+}
+
+
 .slider {
 	width: auto;
 	height: auto;
