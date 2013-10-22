@@ -500,24 +500,29 @@ height: 150px;
 border-radius: 100%;
 background-color: #EB6841;
 margin: 0 auto;
+-webkit-transition: background-color 0.3s linear 0s;
+-moz-transition: background-color 0.3s linear 0s;
+transition: background-color 0.3s linear 0s;
 }
 
 .descrip{
-
+margin-bottom: 1rem;
 }
 
 .descrip h2 {
   text-align: center;
 }
 
-/* efecto hover del icono 
+
 .cajaservicios1:hover .icono{
-  background-color: #00A0B0;
-  -webkit-transition:0.7s ease-in-out 0.3s ;
-  -moz-transition:0.7s ease-in-out 0.3s; 
-  transition:0.7s ease-in-out 0.3s;
+  background-color: #4ECDC4;
+-webkit-transition: background-color 0.3s linear 0s;
+-moz-transition: background-color 0.3s linear 0s;
+transition: background-color 0.3s linear 0s;
 }
-*/
+
+
+
 
 
 .team {
