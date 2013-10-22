@@ -78,7 +78,13 @@ nav li a{
   text-decoration: none;
   color: #6A4A3C;
 }
-¨/* ---------- efecto links ----- */
+
+nav li a:hover {
+  color: #333;
+  border-bottom:2px solid #333;
+}
+
+/* ---------- efecto links ----- 
 ul.menu li a {
   padding: 0 5px;
         color: #6A4A3C;
@@ -117,11 +123,11 @@ ul.menu li a::after {
         transform: translateY(20px);
 }
 
-/*--- Color Hover ---*/ 
+/*--- Color Hover ---
 
 ul.menu li a:hover,
 ul.menu li a:focus {
-        color: #6A4A3C;
+        color: #556270;
 }
 
 ul.menu li a:hover::before,
@@ -144,8 +150,9 @@ ul.menu li a:focus::after {
         -moz-transform: rotate(-45deg);
         transform: rotate(-45deg);
 }
-
+*/
 /* menú responsive ---*/ 
+
 
 #menu-icon {
 display: none !important;
@@ -153,12 +160,27 @@ width: 40px;
 height: 40px;
 background: url(menu-icon.png) center no-repeat;
 }
-a:hover#menu-icon {
-border-radius: 4px 4px 0 0;
+
+
+/*menu boton*/
+
+#menu-button {
+    vertical-align: bottom;
+    float: right;
+    padding: .375em; /* 6/16 = .375em */
+    margin: 0 .375em 0 2em; /* 6/16 = .375em, 32/16 = 2em */
+    opacity: .7;
+    cursor: pointer;
+     
+    transition: all .2s linear;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+     
+    background-color: #4D8EBC;
+    background-image: linear-gradient(top,rgba(100, 152, 190, .5),rgba(30, 82, 120, .5));
+    background-position: left bottom;
+    background-repeat: repeat-x;
 }
-
-
-
 
 
 
@@ -297,7 +319,6 @@ width: 50px; height: 70px; display: block;  position: absolute; top: 0; cursor: 
   background: #fff;
   float: left;
   margin: 1rem;
-border-radius: 1rem;
 border: 1px solid #ccc;
 position:relative;
 
@@ -378,8 +399,6 @@ border-radius: 100px;
 .vista img {
     display: block;
     position: relative;
-border-top-left-radius:1rem;
-  border-top-right-radius:1rem;
     height:200px;
   width:300px;
 }
@@ -400,8 +419,7 @@ border-top-left-radius:1rem;
     top: -200px;
     opacity: 0;
     transition: all 0.3s ease-out 0.5s;
-    border-top-left-radius:1rem !important;
-  border-top-right-radius:1rem !important;
+    
 }
 
 .vista p { 
@@ -457,9 +475,49 @@ bottom: 30px;
 }
 
 .services {
-  background: #CC333F;
+  background: #EB6841;
   min-height: 500px;
+  padding: 1rem auto;
+   position: relative;
 }
+
+
+.cajaservicios1 {
+  width: 200px;
+  height: 300px;
+  border: 3px solid #fff;
+  margin: 2rem;
+  padding: 2rem;
+ display: inline-block;
+ overflow: hidden;
+ text-align: center;
+ background: #fff;
+ }
+
+.icono{
+width: 150px;
+height: 150px;
+border-radius: 100%;
+background-color: #EB6841;
+margin: 0 auto;
+}
+
+.descrip{
+
+}
+
+.descrip h2 {
+  text-align: center;
+}
+
+/* efecto hover del icono 
+.cajaservicios1:hover .icono{
+  background-color: #00A0B0;
+  -webkit-transition:0.7s ease-in-out 0.3s ;
+  -moz-transition:0.7s ease-in-out 0.3s; 
+  transition:0.7s ease-in-out 0.3s;
+}
+*/
 
 
 .team {
