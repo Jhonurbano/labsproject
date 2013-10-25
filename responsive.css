@@ -52,6 +52,11 @@ display:block;
 	width: auto;
 	height: auto;
 }
+
+.texto {
+	display: none;
+}
+
 #home{
 width:auto;
 
