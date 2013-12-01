@@ -1,6 +1,6 @@
 body {
 
-background-color:#e7e7e7;
+background: #f0f0f0 url(fondo.gif);
 font-family: 'Oswald', sans-serif;
 font-weight: 400;
 margin: 0; 
@@ -749,15 +749,15 @@ display: block;
 }
 
 .ch-img-1 { 
-  background-image: url(user.jpg);
+  background-image: url(refeo.png);
 }
 
 .ch-img-2 { 
-  background-image: url(../images/14.jpg);
+  background-image: url(user.jpg);
 }
 
 .ch-img-3 { 
-  background-image: url(../images/15.jpg);
+  background-image: url(net.png);
 }
 
 .ch-info h3 {
