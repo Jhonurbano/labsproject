@@ -5,12 +5,7 @@
 
 @media screen and (max-width:700px){
 	
-	
-}
-
-@media screen and (max-width:480px){
-	
-header{
+	header{
 height: auto;
 }
 
@@ -46,6 +41,11 @@ nav a {
 color:#fff;
 display:block;
 }
+
+}
+
+@media screen and (max-width:480px){
+	
 
 
 .slider {
